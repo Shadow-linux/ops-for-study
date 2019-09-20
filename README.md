@@ -2,7 +2,9 @@
 [TOC]
 # 只用于学习交流
 * 效果图
+![avatar](https://s2.ax1x.com/2019/09/02/nPQrEF.jpg)
 ![avatar](https://s2.ax1x.com/2019/09/02/nPYlxH.jpg)
+![nPzHDP.jpg](https://s2.ax1x.com/2019/09/02/nPzHDP.jpg)
 * 更多效果图 -> https://github.com/Shadow-linux/ops-for-study/blob/master/docs/ops_instructions.md
 
 ## 一、概述
