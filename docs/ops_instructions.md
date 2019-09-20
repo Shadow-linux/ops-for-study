@@ -76,7 +76,6 @@
 ### 1. 全局操作记录
 ![nFy0ln.jpg](https://s2.ax1x.com/2019/09/03/nFy0ln.jpg)
 ### 2. 消息日志
-![nFyaWj.jpg](https://s2.ax1x.com/2019/09/03/nFyaWj.jpg)
 ## 六. 全局设置
 ### 1. 通用设置
 #### 1. CMDB 设置
@@ -91,7 +90,6 @@
 #### 4. 消息设置
 ![nFysmV.jpg](https://s2.ax1x.com/2019/09/03/nFysmV.jpg)
 ### 2. 用户管理
-![nFyywT.jpg](https://s2.ax1x.com/2019/09/03/nFyywT.jpg)
 ### 3. 权限组
 ![nFy2Y4.jpg](https://s2.ax1x.com/2019/09/03/nFy2Y4.jpg)
 ### 4. 消息推送
