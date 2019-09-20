@@ -28,9 +28,10 @@ npm run dev
     1. 可以使用pycharm ，设置 （recommand）
     ![nEXaDI.jpg](https://s2.ax1x.com/2019/09/04/nEXaDI.jpg)
     2. 直接通过原生命令启动
-    ```
+
+```
 python3.6 manage.py 0.0.0.0:8001
-    ```
+```
 
 
 ## 二、编码规范
