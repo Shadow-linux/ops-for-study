@@ -1,0 +1,24 @@
+[
+    {
+        "error_code": 0,
+        "reason": "查询成功",
+        "result": [
+            {
+                "name": "银行卡信息核验",
+                "number": 95871
+            }
+        ],
+        "key": "d9dae33c6f6fed9f00a6af6ee0894f1f"
+    },
+    {
+        "error_code": 0,
+        "reason": "查询成功",
+        "result": [
+            {
+                "name": "身份证实名认证",
+                "number": 7988
+            }
+        ],
+        "key": "d947059ccd10317fc6811547ac3e9c9c"
+    }
+]

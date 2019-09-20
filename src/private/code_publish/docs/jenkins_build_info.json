@@ -1,0 +1,111 @@
+{
+    "_class": "hudson.matrix.MatrixBuild",
+    "actions": [
+        {
+            "_class": "hudson.model.ParametersAction",
+            "parameters": [
+                {
+                    "_class": "hudson.model.StringParameterValue",
+                    "name": "Environment",
+                    "value": "Test92"
+                },
+                {
+                    "_class": "net.uaznia.lukanus.hudson.plugins.gitparameter.GitParameterValue",
+                    "name": "Branch",
+                    "value": "origin/master"
+                }
+            ]
+        },
+        {
+            "_class": "hudson.model.CauseAction",
+            "causes": [
+                {
+                    "_class": "hudson.model.Cause$UserIdCause",
+                    "shortDescription": "由用户 梁业东 启动",
+                    "userId": "shadow.liang",
+                    "userName": "梁业东"
+                }
+            ]
+        },
+        {
+            "_class": "hudson.plugins.git.util.BuildData",
+            "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                    "_class": "hudson.plugins.git.util.Build",
+                    "buildNumber": 43,
+                    "buildResult": null,
+                    "marked": {
+                        "SHA1": "4da1f45b79195b43fda929ec123f24265ac3be9f",
+                        "branch": [
+                            {
+                                "SHA1": "4da1f45b79195b43fda929ec123f24265ac3be9f",
+                                "name": "refs/remotes/origin/master"
+                            }
+                        ]
+                    },
+                    "revision": {
+                        "SHA1": "4da1f45b79195b43fda929ec123f24265ac3be9f",
+                        "branch": [
+                            {
+                                "SHA1": "4da1f45b79195b43fda929ec123f24265ac3be9f",
+                                "name": "refs/remotes/origin/master"
+                            }
+                        ]
+                    }
+                }
+            },
+            "lastBuiltRevision": {
+                "SHA1": "4da1f45b79195b43fda929ec123f24265ac3be9f",
+                "branch": [
+                    {
+                        "SHA1": "4da1f45b79195b43fda929ec123f24265ac3be9f",
+                        "name": "refs/remotes/origin/master"
+                    }
+                ]
+            },
+            "remoteUrls": [
+                "https://gitee.com/aiyuangong/deposit-service"
+            ],
+            "scmName": ""
+        },
+        {
+            "_class": "hudson.plugins.git.GitTagAction"
+        },
+        { },
+        { },
+        { },
+        { }
+    ],
+    "artifacts": [ ],
+    "building": false,
+    "description": null,
+    "displayName": "#43",
+    "duration": 76334,
+    "estimatedDuration": 54174,
+    "executor": null,
+    "fullDisplayName": "ops-deposit #43",
+    "id": "43",
+    "keepLog": false,
+    "number": 43,
+    "queueId": 61829,
+    "result": "FAILURE",
+    "timestamp": 1563950859660,
+    "url": "http://jenkins.aiyuangong.com/job/ops-deposit/43/",
+    "builtOn": "",
+    "changeSet": {
+        "_class": "hudson.plugins.git.GitChangeSetList",
+        "items": [ ],
+        "kind": "git"
+    },
+    "culprits": [ ],
+    "runs": [
+        {
+            "number": 43,
+            "url": "http://jenkins.aiyuangong.com/job/ops-deposit/label=docker-release/43/"
+        },
+        {
+            "number": 43,
+            "url": "http://jenkins.aiyuangong.com/job/ops-deposit/label=docker-test/43/"
+        }
+    ]
+}

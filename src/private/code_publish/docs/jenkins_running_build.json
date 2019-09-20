@@ -1,0 +1,9 @@
+[
+    {
+        "name": "ops",
+        "number": 9,
+        "url": "http://jenkins.aiyuangong.com/job/ops/9/",
+        "node": "docker-test",
+        "executor": 3   // 这个是agent 的可执行线程号
+    }
+]

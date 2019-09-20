@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="http://unpkg.com/iview/dist/styles/iview.css">
+  <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
+  <script type="text/javascript" src="http://unpkg.com/iview/dist/iview.min.js"></script>
+</head>
+<body style="background-color: #f8f8f9 ;height: 100%;">
+  <div>
+    <div id="app" style="margin-top: 10%">
+      <Row>
+        <i-col span="12" offset="6">
+          <Card>
+            <p slot="title">
+                <Icon type="ios-mail" style="font-size: 25px" :color="error"></Icon>
+                <b >[ERROR]</b> Classic film
+            </p>
+            <p style="text-indent: 20px">
+                Classic filmClassic filmClassic filmClassic filmClassic film
+                Classic filmClassic filmClassic filmClassic filmClassic film
+                Classic filmClassic filmClassic filmClassic filmClassic film
+            </p>
+          </Card>
+        </i-col>
+      </Row>
+    </div>
+  </div>
+  
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+          error: '#ed4014',
+          info: '#2db7f5',
+          success: '#19be6b',
+          warning: '#ff9900'
+        },
+        methods: {
+        }
+    })
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+[
+    {
+        "_class": "hudson.model.Queue$WaitingItem",
+        "actions": [
+            {
+                "_class": "hudson.model.CauseAction",
+                "causes": [
+                    {
+                        "_class": "hudson.model.Cause$UserIdCause",
+                        "shortDescription": "由用户 梁业东 启动",
+                        "userId": "shadow.liang",
+                        "userName": "梁业东"
+                    }
+                ]
+            }
+        ],
+        "blocked": false,
+        "buildable": false,
+        "id": 63462,
+        "inQueueSince": 1564990512540,
+        "params": "",
+        "stuck": false,
+        "task": {
+            "_class": "hudson.model.FreeStyleProject",
+            "name": "ops",
+            "url": "http://jenkins.aiyuangong.com/job/ops/",
+            "color": "blue"
+        },
+        "url": "queue/item/63462/",
+        "why": "Finished waiting",
+        "timestamp": 1564990517540
+    }
+]

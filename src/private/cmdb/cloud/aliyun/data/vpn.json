@@ -1,0 +1,26 @@
+{
+	"PageNumber": 1,
+	"TotalCount": 1,
+	"VpnGateways": {
+		"VpnGateway": [
+			{
+				"ChargeType": "Prepay",
+				"Description": "长沙银行对接VPN网关-39.108.172.3",
+				"SslVpn": "disable",
+				"VpnGatewayId": "vpn-wz923f4yp5py6l3j7kgnb",
+				"IpsecVpn": "enable",
+				"Spec": "5M",
+				"InternetIp": "39.108.172.3",
+				"VSwitchId": "vsw-wz9axv2tl93kz831mf1mj",
+				"VpcId": "vpc-wz9543m09hcsx91gb7uxm",
+				"Name": "长沙银行对接VPN网关-39-108-172-3",
+				"Status": "active",
+				"BusinessStatus": "Normal",
+				"CreateTime": 1517902630000,
+				"EndTime": 1586188800000
+			}
+		]
+	},
+	"PageSize": 10,
+	"RequestId": "2E237E91-3E59-40E9-A53D-3BAEDAFC4D5E"
+}

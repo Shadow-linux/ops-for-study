@@ -1,0 +1,171 @@
+{
+	"Items": {
+		"DBInstance": [
+			{
+				"LockMode": "Unlock",
+				"DBInstanceNetType": "Intranet",
+				"DBInstanceClass": "rds.mysql.s3.large",
+				"ResourceGroupId": "rg-acfmydpr7f3ezjq",
+				"DBInstanceId": "rm-wz9wz0l7l60504h1g",
+				"VpcCloudInstanceId": "",
+				"ZoneId": "cn-shenzhen-d",
+				"ReadOnlyDBInstanceIds": {
+					"ReadOnlyDBInstanceId": []
+				},
+				"InstanceNetworkType": "Classic",
+				"DBInstanceDescription": "爱员工-生产环境4-余额系统",
+				"ConnectionMode": "Standard",
+				"Engine": "MySQL",
+				"MutriORsignle": false,
+				"InsId": 1,
+				"ExpireTime": "2020-04-12T16:00:00Z",
+				"CreateTime": "2019-03-12T07:02:09Z",
+				"DBInstanceType": "Primary",
+				"RegionId": "cn-shenzhen",
+				"EngineVersion": "5.6",
+				"LockReason": "",
+				"DBInstanceStatus": "Running",
+				"PayType": "Prepaid"
+			},
+			{
+				"LockMode": "Unlock",
+				"DBInstanceNetType": "Intranet",
+				"MasterInstanceId": "rm-wz9oj32d05y69mb76",
+				"DBInstanceClass": "rds.mysql.s3.large",
+				"ResourceGroupId": "rg-acfmydpr7f3ezjq",
+				"DBInstanceId": "rr-wz9nwwe1jvl29s667",
+				"VpcCloudInstanceId": "",
+				"ZoneId": "cn-shenzhen-a",
+				"ReadOnlyDBInstanceIds": {
+					"ReadOnlyDBInstanceId": []
+				},
+				"InstanceNetworkType": "Classic",
+				"DBInstanceDescription": "爱员工-生产环境2-只读实例",
+				"ConnectionMode": "Safe",
+				"Engine": "MySQL",
+				"MutriORsignle": false,
+				"InsId": 1,
+				"ExpireTime": "",
+				"CreateTime": "2018-02-10T11:12:01Z",
+				"DBInstanceType": "Readonly",
+				"RegionId": "cn-shenzhen",
+				"EngineVersion": "5.6",
+				"LockReason": "",
+				"DBInstanceStatus": "Running",
+				"PayType": "Postpaid"
+			},
+			{
+				"LockMode": "Unlock",
+				"DBInstanceNetType": "Intranet",
+				"DBInstanceClass": "rds.mysql.s3.large",
+				"ResourceGroupId": "rg-acfmydpr7f3ezjq",
+				"DBInstanceId": "rm-wz9o62r4e911623i0",
+				"VpcCloudInstanceId": "",
+				"ZoneId": "cn-shenzhen-a",
+				"ReadOnlyDBInstanceIds": {
+					"ReadOnlyDBInstanceId": []
+				},
+				"InstanceNetworkType": "Classic",
+				"DBInstanceDescription": "爱员工-生产环境3-支付系统专用",
+				"ConnectionMode": "Standard",
+				"Engine": "MySQL",
+				"MutriORsignle": false,
+				"InsId": 1,
+				"ExpireTime": "2020-02-05T16:00:00Z",
+				"CreateTime": "2018-02-05T07:02:12Z",
+				"DBInstanceType": "Primary",
+				"RegionId": "cn-shenzhen",
+				"EngineVersion": "5.6",
+				"LockReason": "",
+				"DBInstanceStatus": "Running",
+				"PayType": "Prepaid"
+			},
+			{
+				"LockMode": "Unlock",
+				"DBInstanceNetType": "Intranet",
+				"DBInstanceClass": "rds.mysql.s3.large",
+				"ResourceGroupId": "rg-acfmydpr7f3ezjq",
+				"DBInstanceId": "rm-wz9oj32d05y69mb76",
+				"VpcCloudInstanceId": "",
+				"ZoneId": "cn-shenzhen-a",
+				"ReadOnlyDBInstanceIds": {
+					"ReadOnlyDBInstanceId": [
+						{
+							"DBInstanceId": "rr-wz9nwwe1jvl29s667"
+						}
+					]
+				},
+				"InstanceNetworkType": "Classic",
+				"DBInstanceDescription": "爱员工-生产环境2",
+				"ConnectionMode": "Safe",
+				"Engine": "MySQL",
+				"MutriORsignle": false,
+				"InsId": 1,
+				"ExpireTime": "2020-03-03T16:00:00Z",
+				"CreateTime": "2016-12-03T08:14:01Z",
+				"DBInstanceType": "Primary",
+				"RegionId": "cn-shenzhen",
+				"EngineVersion": "5.6",
+				"LockReason": "",
+				"DBInstanceStatus": "Running",
+				"PayType": "Prepaid"
+			},
+			{
+				"LockMode": "Unlock",
+				"DBInstanceNetType": "Intranet",
+				"DBInstanceClass": "rds.mysql.s3.large",
+				"ResourceGroupId": "rg-acfmydpr7f3ezjq",
+				"DBInstanceId": "rds3rg2hkfuie8xwar1hg",
+				"VpcCloudInstanceId": "",
+				"ZoneId": "cn-shenzhen-a",
+				"ReadOnlyDBInstanceIds": {
+					"ReadOnlyDBInstanceId": []
+				},
+				"InstanceNetworkType": "Classic",
+				"DBInstanceDescription": "爱员工-预发布环境数据库",
+				"ConnectionMode": "Standard",
+				"Engine": "MySQL",
+				"MutriORsignle": false,
+				"InsId": 353215,
+				"ExpireTime": "2020-03-17T16:00:00Z",
+				"CreateTime": "2015-04-15T03:15:19Z",
+				"DBInstanceType": "Primary",
+				"RegionId": "cn-shenzhen",
+				"EngineVersion": "5.6",
+				"LockReason": "",
+				"DBInstanceStatus": "Running",
+				"PayType": "Prepaid"
+			},
+			{
+				"LockMode": "Unlock",
+				"DBInstanceNetType": "Intranet",
+				"DBInstanceClass": "rds.mys2.large",
+				"ResourceGroupId": "rg-acfmydpr7f3ezjq",
+				"DBInstanceId": "rdsqeifajayb6vf",
+				"VpcCloudInstanceId": "",
+				"ZoneId": "cn-shenzhen-a",
+				"ReadOnlyDBInstanceIds": {
+					"ReadOnlyDBInstanceId": []
+				},
+				"InstanceNetworkType": "Classic",
+				"DBInstanceDescription": "爱员工-生产环境1",
+				"ConnectionMode": "Standard",
+				"Engine": "MySQL",
+				"MutriORsignle": false,
+				"InsId": 243391,
+				"ExpireTime": "2020-04-22T16:00:00Z",
+				"CreateTime": "2014-12-22T06:18:51Z",
+				"DBInstanceType": "Primary",
+				"RegionId": "cn-shenzhen",
+				"EngineVersion": "5.6",
+				"LockReason": "",
+				"DBInstanceStatus": "Running",
+				"PayType": "Prepaid"
+			}
+		]
+	},
+	"TotalRecordCount": 6,
+	"PageNumber": 1,
+	"RequestId": "D176E4E0-291D-4BC1-B72E-6735BDA04EDA",
+	"PageRecordCount": 6
+}

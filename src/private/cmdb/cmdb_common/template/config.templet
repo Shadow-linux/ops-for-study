@@ -1,0 +1,12 @@
+# 此文件渲染至 ～/.ssh/config
+{% for host_obj in host_obj_list %}
+Host {{ host_obj.host  }}
+    # 登录内网机器使用的用户
+    User root
+    # 登录内网机器使用的端口
+    Port {{ host_obj.port }}
+    # 因为使用了proxycommand 使用这个key, 作为proxy 的key
+    IdentityFile /root/.ssh/keys/internal_rsa
+    # 登录到跳板机
+    ProxyCommand ssh -C -o StrictHostKeyChecking=no -o ControlMaster=auto -o ControlPersist=yes  -o StrictHostKeyChecking=no -o ConnectTimeout=30 -p 38333 root@{{ host_obj.ssh_proxy }} nc %h %p 2>/dev/null
+{% endfor %}

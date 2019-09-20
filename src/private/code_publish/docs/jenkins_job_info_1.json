@@ -1,0 +1,188 @@
+{
+    "_class": "hudson.matrix.MatrixProject",
+    "actions": [
+        {
+            "_class": "hudson.model.ParametersDefinitionProperty",
+            "parameterDefinitions": [
+                {
+                    "_class": "hudson.model.ChoiceParameterDefinition",
+                    "defaultParameterValue": {
+                        "_class": "hudson.model.StringParameterValue",
+                        "value": "Test92"
+                    },
+                    "description": "部署环境",
+                    "name": "Environment",
+                    "type": "ChoiceParameterDefinition",
+                    "choices": [
+                        "Test92",
+                        "PreRelease"
+                    ]
+                },
+                {
+                    "_class": "net.uaznia.lukanus.hudson.plugins.gitparameter.GitParameterDefinition",
+                    "defaultParameterValue": null,
+                    "description": "发布前和开发确认分支选取",
+                    "name": "Branch",
+                    "type": "PT_BRANCH"
+                }
+            ]
+        },
+        { },
+        { },
+        { },
+        {
+            "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+        }
+    ],
+    "description": "项目 ayg-deposit
+端口：8016
+类型：docker
+文件名：deposit.jar
+测试：192.168.1.88
+预发布：10.30.2.91 （test4-docker）
+正式环境：计划在pool1
+开发git地址 https://gitee.com/aiyuangong/deposit-service
+
+",
+    "displayName": "ops-deposit",
+    "displayNameOrNull": null,
+    "fullDisplayName": "ops-deposit",
+    "fullName": "ops-deposit",
+    "name": "ops-deposit",
+    "url": "http://jenkins.aiyuangong.com/job/ops-deposit/",
+    "buildable": true,
+    "builds": [
+        {
+            "_class": "hudson.matrix.MatrixBuild",
+            "number": 43,
+            "url": "http://jenkins.aiyuangong.com/job/ops-deposit/43/"
+        },
+        {
+            "_class": "hudson.matrix.MatrixBuild",
+            "number": 42,
+            "url": "http://jenkins.aiyuangong.com/job/ops-deposit/42/"
+        },
+        {
+            "_class": "hudson.matrix.MatrixBuild",
+            "number": 41,
+            "url": "http://jenkins.aiyuangong.com/job/ops-deposit/41/"
+        },
+        {
+            "_class": "hudson.matrix.MatrixBuild",
+            "number": 40,
+            "url": "http://jenkins.aiyuangong.com/job/ops-deposit/40/"
+        },
+        {
+            "_class": "hudson.matrix.MatrixBuild",
+            "number": 39,
+            "url": "http://jenkins.aiyuangong.com/job/ops-deposit/39/"
+        },
+        {
+            "_class": "hudson.matrix.MatrixBuild",
+            "number": 38,
+            "url": "http://jenkins.aiyuangong.com/job/ops-deposit/38/"
+        },
+        {
+            "_class": "hudson.matrix.MatrixBuild",
+            "number": 37,
+            "url": "http://jenkins.aiyuangong.com/job/ops-deposit/37/"
+        },
+        {
+            "_class": "hudson.matrix.MatrixBuild",
+            "number": 36,
+            "url": "http://jenkins.aiyuangong.com/job/ops-deposit/36/"
+        }
+    ],
+    "color": "red",
+    "firstBuild": {
+        "_class": "hudson.matrix.MatrixBuild",
+        "number": 36,
+        "url": "http://jenkins.aiyuangong.com/job/ops-deposit/36/"
+    },
+    "healthReport": [
+        {
+            "description": "构建稳定性: 最近所有的构建都失败了。",
+            "iconClassName": "icon-health-00to19",
+            "iconUrl": "health-00to19.png",
+            "score": 0
+        }
+    ],
+    "inQueue": false,
+    "keepDependencies": false,
+    "lastBuild": {
+        "_class": "hudson.matrix.MatrixBuild",
+        "number": 43,
+        "url": "http://jenkins.aiyuangong.com/job/ops-deposit/43/"
+    },
+    "lastCompletedBuild": {
+        "_class": "hudson.matrix.MatrixBuild",
+        "number": 43,
+        "url": "http://jenkins.aiyuangong.com/job/ops-deposit/43/"
+    },
+    "lastFailedBuild": {
+        "_class": "hudson.matrix.MatrixBuild",
+        "number": 43,
+        "url": "http://jenkins.aiyuangong.com/job/ops-deposit/43/"
+    },
+    "lastStableBuild": null,
+    "lastSuccessfulBuild": null,
+    "lastUnstableBuild": null,
+    "lastUnsuccessfulBuild": {
+        "_class": "hudson.matrix.MatrixBuild",
+        "number": 43,
+        "url": "http://jenkins.aiyuangong.com/job/ops-deposit/43/"
+    },
+    "nextBuildNumber": 44,
+    "property": [
+        {
+            "_class": "jenkins.model.BuildDiscarderProperty"
+        },
+        {
+            "_class": "hudson.model.ParametersDefinitionProperty",
+            "parameterDefinitions": [
+                {
+                    "_class": "hudson.model.ChoiceParameterDefinition",
+                    "defaultParameterValue": {
+                        "_class": "hudson.model.StringParameterValue",
+                        "name": "Environment",
+                        "value": "Test92"
+                    },
+                    "description": "部署环境",
+                    "name": "Environment",
+                    "type": "ChoiceParameterDefinition",
+                    "choices": [
+                        "Test92",
+                        "PreRelease"
+                    ]
+                },
+                {
+                    "_class": "net.uaznia.lukanus.hudson.plugins.gitparameter.GitParameterDefinition",
+                    "defaultParameterValue": null,
+                    "description": "发布前和开发确认分支选取",
+                    "name": "Branch",
+                    "type": "PT_BRANCH"
+                }
+            ]
+        }
+    ],
+    "queueItem": null,
+    "concurrentBuild": false,
+    "downstreamProjects": [ ],
+    "labelExpression": null,
+    "scm": {
+        "_class": "hudson.plugins.git.GitSCM"
+    },
+    "upstreamProjects": [ ],
+    "activeConfigurations": [
+        {
+            "name": "label=docker-release",
+            "url": "http://jenkins.aiyuangong.com/job/ops-deposit/label=docker-release/",
+            "color": "red"
+        },
+        {
+            "name": "label=docker-test",
+            "url": "http://jenkins.aiyuangong.com/job/ops-deposit/label=docker-test/",
+            "color": "blue"
+        }
+    ]
+}

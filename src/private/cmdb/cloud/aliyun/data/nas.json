@@ -1,0 +1,62 @@
+{
+	"PageNumber": 1,
+	"TotalCount": 2,
+	"PageSize": 2,
+	"RequestId": "E4358E78-6349-4C1D-B7D7-A2C13C85A903",
+	"FileSystems": {
+		"FileSystem": [
+			{
+				"FileSystemId": "26a1a4b233",
+				"Packages": {
+					"Package": [
+						{
+							"PackageId": "naspackage-26a1a4b233-3d5a11"
+						}
+					]
+				},
+				"ProtocolType": "NFS",
+				"RegionId": "cn-shenzhen",
+				"CreateTime": "2017-12-04T09:57:03CST",
+				"Destription": "预发布环境使用",
+				"MountTargets": {
+					"MountTarget": [
+						{
+							"MountTargetDomain": "26a1a4b233-rdx94.cn-shenzhen.nas.aliyuncs.com"
+						},
+						{
+							"MountTargetDomain": "26a1a4b233-rxv28.cn-shenzhen.nas.aliyuncs.com"
+						}
+					]
+				},
+				"StorageType": "Capacity",
+				"MeteredSize": 4324749312
+			},
+			{
+				"FileSystemId": "2b8934968f",
+				"Packages": {
+					"Package": [
+						{
+							"PackageId": "naspackage-2b8934968f-06801b"
+						}
+					]
+				},
+				"ProtocolType": "NFS",
+				"RegionId": "cn-shenzhen",
+				"CreateTime": "2017-11-16T11:53:23CST",
+				"Destription": "正式环境使用",
+				"MountTargets": {
+					"MountTarget": [
+						{
+							"MountTargetDomain": "2b8934968f-gjn95.cn-shenzhen.nas.aliyuncs.com"
+						},
+						{
+							"MountTargetDomain": "2b8934968f-ifs49.cn-shenzhen.nas.aliyuncs.com"
+						}
+					]
+				},
+				"StorageType": "Capacity",
+				"MeteredSize": 117808046080
+			}
+		]
+	}
+}

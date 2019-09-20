@@ -1,0 +1,120 @@
+{
+    "_class": "hudson.model.FreeStyleProject",
+    "actions": [
+        { },
+        { },
+        { },
+        {
+            "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+        }
+    ],
+    "description": "ops",
+    "displayName": "ops",
+    "displayNameOrNull": null,
+    "fullDisplayName": "ops",
+    "fullName": "ops",
+    "name": "ops",
+    "url": "http://jenkins.aiyuangong.com/job/ops/",
+    "buildable": true,
+    "builds": [
+        {
+            "_class": "hudson.model.FreeStyleBuild",
+            "number": 10,
+            "url": "http://jenkins.aiyuangong.com/job/ops/10/"
+        },
+        {
+            "_class": "hudson.model.FreeStyleBuild",
+            "number": 9,
+            "url": "http://jenkins.aiyuangong.com/job/ops/9/"
+        },
+        {
+            "_class": "hudson.model.FreeStyleBuild",
+            "number": 8,
+            "url": "http://jenkins.aiyuangong.com/job/ops/8/"
+        },
+        {
+            "_class": "hudson.model.FreeStyleBuild",
+            "number": 7,
+            "url": "http://jenkins.aiyuangong.com/job/ops/7/"
+        },
+        {
+            "_class": "hudson.model.FreeStyleBuild",
+            "number": 6,
+            "url": "http://jenkins.aiyuangong.com/job/ops/6/"
+        },
+        {
+            "_class": "hudson.model.FreeStyleBuild",
+            "number": 5,
+            "url": "http://jenkins.aiyuangong.com/job/ops/5/"
+        },
+        {
+            "_class": "hudson.model.FreeStyleBuild",
+            "number": 4,
+            "url": "http://jenkins.aiyuangong.com/job/ops/4/"
+        },
+        {
+            "_class": "hudson.model.FreeStyleBuild",
+            "number": 3,
+            "url": "http://jenkins.aiyuangong.com/job/ops/3/"
+        },
+        {
+            "_class": "hudson.model.FreeStyleBuild",
+            "number": 2,
+            "url": "http://jenkins.aiyuangong.com/job/ops/2/"
+        },
+        {
+            "_class": "hudson.model.FreeStyleBuild",
+            "number": 1,
+            "url": "http://jenkins.aiyuangong.com/job/ops/1/"
+        }
+    ],
+    "color": "blue",
+    "firstBuild": {
+        "_class": "hudson.model.FreeStyleBuild",
+        "number": 1,
+        "url": "http://jenkins.aiyuangong.com/job/ops/1/"
+    },
+    "healthReport": [
+        {
+            "description": "构建稳定性: 最近没有失败的构建。",
+            "iconClassName": "icon-health-80plus",
+            "iconUrl": "health-80plus.png",
+            "score": 100
+        }
+    ],
+    "inQueue": false,
+    "keepDependencies": false,
+    "lastBuild": {
+        "_class": "hudson.model.FreeStyleBuild",
+        "number": 10,
+        "url": "http://jenkins.aiyuangong.com/job/ops/10/"
+    },
+    "lastCompletedBuild": {
+        "_class": "hudson.model.FreeStyleBuild",
+        "number": 10,
+        "url": "http://jenkins.aiyuangong.com/job/ops/10/"
+    },
+    "lastFailedBuild": null,
+    "lastStableBuild": {
+        "_class": "hudson.model.FreeStyleBuild",
+        "number": 10,
+        "url": "http://jenkins.aiyuangong.com/job/ops/10/"
+    },
+    "lastSuccessfulBuild": {
+        "_class": "hudson.model.FreeStyleBuild",
+        "number": 10,
+        "url": "http://jenkins.aiyuangong.com/job/ops/10/"
+    },
+    "lastUnstableBuild": null,
+    "lastUnsuccessfulBuild": null,
+    "nextBuildNumber": 11,
+    "property": [ ],
+    "queueItem": null,
+    "concurrentBuild": false,
+    "downstreamProjects": [ ],
+    "labelExpression": "docker-test",
+    "scm": {
+        "_class": "hudson.scm.NullSCM"
+    },
+    "upstreamProjects": [ ]
+}
