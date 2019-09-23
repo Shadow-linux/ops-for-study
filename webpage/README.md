@@ -6,3 +6,4 @@
 * src/components 为视图的组件函数
 * src/router 前端路由
 * src/store vue.js的共享方式
+* src/api  后端api的定义
